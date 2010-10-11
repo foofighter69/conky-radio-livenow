@@ -1,0 +1,17 @@
+Conky Radio Livenow
+===================
+
+It displays hungarian radio stations' current songs.
+
+Using:
+------
+
+If the scripts are saved in ~/scripts add this to .conkyrc:
+
+$hr
+${color grey}Juventus:$color ${texeci 15 lua ~/scripts/radio_juventus.lua}
+${color grey}MR2:$color ${texeci 15 lua ~/scripts/radio_mr2.lua}
+${color grey}NeoFM:$color ${texeci 15 lua ~/scripts/radio_neofm.lua}
+${color grey}ClassFM:$color ${texeci 15 lua ~/scripts/radio_classfm.lua}
+${color grey}Radio1:$color ${texeci 15 lua ~/scripts/radio_radio1.lua}
+$hr
