@@ -1,7 +1,8 @@
 Conky Radio Livenow
 ===================
 
-It displays hungarian radio stations' current songs.
+It displays hungarian radio stations' current songs. 
+radio_radio1.lua needs 'xmlreader'. You can install with 'luarocks install xmlreader'.
 
 Using:
 ------
